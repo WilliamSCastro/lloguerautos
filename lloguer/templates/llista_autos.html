@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Llista de Cotxes</title>
+</head>
+<body>
+    <h1>Llista de Cotxes</h1>
+    <ol>
+        {% for automobil in automobils %}
+            <li>{{ automobil }}</li>
+        {% endfor %}
+    </ol>
+</body>
+</html>
